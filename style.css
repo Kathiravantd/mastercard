@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo img{
+    height: 48px;
+    width: 40px;
+}   
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: #e3f2fd;
+}
+.container{
+    position: relative;
+    background-image: url("New folder/gradient-black-background.avif");
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 370px;
+    /* height: 30vh; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header,.logo{
+    display: flex;
+    justify-content: space-between;
+}
+header .chip{
+    width: 60px;
+}
+h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+h5.number{
+    margin-top: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+h5.name{
+    margin-top: 15px;
+}
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container .card-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: flex-end;
+}
